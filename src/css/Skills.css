@@ -1,0 +1,68 @@
+.container{
+    background-color: #ECF0F3;
+    width: 100vw;
+    height: 90vh;
+}
+#skill-stack {
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 25px 10px 0 25px;
+}
+.skill-set, .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.frontend,.skill-meter{
+    margin: 25px;
+    width: 40vw;
+    height: 55vh;
+    background: #ECF0F3;
+    box-shadow: -18px -18px 30px rgba(255, 255, 255, 0.9), 18px 18px 30px #D1D9E6;
+    border-radius: 21px;
+}
+.front-png{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+
+.frontend{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.frontend{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.skill-meter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*.backend h4{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+.progress{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+progress{
+    width: 60%;
+    height: 1vh;
+    border: none;
+}
+
+progress::-moz-progress-bar {
+    background-color: rgba(97, 165, 194, 0.7);
+}

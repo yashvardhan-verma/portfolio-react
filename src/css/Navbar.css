@@ -1,0 +1,12 @@
+nav{
+    background-color: #012A4A;
+    color: #fff;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav h3{
+    color: rgba(97, 165, 194, 1);
+}
